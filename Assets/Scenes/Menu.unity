@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 27016982}
   - component: {fileID: 27016981}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,8 +144,8 @@ RectTransform:
   m_Children:
   - {fileID: 657520298}
   - {fileID: 1711551580}
-  m_Father: {fileID: 2104353174}
-  m_RootOrder: 1
+  m_Father: {fileID: 367959484}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -341,6 +341,43 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &278568519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 278568520}
+  m_Layer: 5
+  m_Name: TextElements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &278568520
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278568519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1080313419}
+  - {fileID: 1845377734}
+  m_Father: {fileID: 2104353174}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &337838303
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +390,7 @@ GameObject:
   - component: {fileID: 337838306}
   - component: {fileID: 337838305}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: ProgrammingCreditsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -411,7 +448,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Programming by Mitchell Curnoe and Marc
+  m_Text: Programming - Mitchell Curnoe, Marc Larkin
 --- !u!222 &337838306
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -432,7 +469,7 @@ GameObject:
   - component: {fileID: 356801487}
   - component: {fileID: 356801486}
   m_Layer: 5
-  m_Name: Text (5)
+  m_Name: ArtDesignCreditsText4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -490,7 +527,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: and Animal Designs by Lucy Timlin
+  m_Text: Design (Animals) Lucy Timlin
 --- !u!222 &356801487
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -499,6 +536,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356801484}
   m_CullTransparentMesh: 0
+--- !u!1 &367959483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367959484}
+  m_Layer: 5
+  m_Name: Buttons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &367959484
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367959483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 27016980}
+  - {fileID: 1955409655}
+  m_Father: {fileID: 2104353174}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +667,7 @@ GameObject:
   - component: {fileID: 657520300}
   - component: {fileID: 657520299}
   m_Layer: 5
-  m_Name: Text
+  m_Name: QuitButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -672,7 +746,7 @@ GameObject:
   - component: {fileID: 874019676}
   - component: {fileID: 874019675}
   m_Layer: 5
-  m_Name: Text
+  m_Name: FarmHouseButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,7 +891,7 @@ GameObject:
   - component: {fileID: 1007710980}
   - component: {fileID: 1007710979}
   m_Layer: 5
-  m_Name: Text (3)
+  m_Name: ArtDesignCreditsText2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -875,7 +949,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Background Design by Adrian Wai,
+  m_Text: Design (Background) Adrian Wai
 --- !u!222 &1007710980
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -896,7 +970,7 @@ GameObject:
   - component: {fileID: 1080313421}
   - component: {fileID: 1080313420}
   m_Layer: 5
-  m_Name: Text
+  m_Name: GameTitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -909,12 +983,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080313418}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2104353174}
-  m_RootOrder: 2
+  m_Father: {fileID: 278568520}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -975,7 +1049,7 @@ GameObject:
   - component: {fileID: 1313904090}
   - component: {fileID: 1313904089}
   m_Layer: 5
-  m_Name: Text (2)
+  m_Name: ArtDesignCreditsText1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1033,7 +1107,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Moon and Stars Design by Cherie Chen,
+  m_Text: Design (Moon & Stars) Cherie Chen
 --- !u!222 &1313904090
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1054,7 +1128,7 @@ GameObject:
   - component: {fileID: 1711551582}
   - component: {fileID: 1711551581}
   m_Layer: 5
-  m_Name: Image
+  m_Name: QuitButtonImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1128,7 +1202,7 @@ GameObject:
   - component: {fileID: 1766683223}
   - component: {fileID: 1766683222}
   m_Layer: 5
-  m_Name: Image
+  m_Name: FarmHouseButtonImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1202,7 +1276,7 @@ GameObject:
   - component: {fileID: 1786662724}
   - component: {fileID: 1786662723}
   m_Layer: 5
-  m_Name: Text (4)
+  m_Name: ArtDesignCreditsText3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1260,7 +1334,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Human Designs by Ambizu Soengkoeng
+  m_Text: Design (Humans) Ambizu Soengkoeng
 --- !u!222 &1786662724
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1281,7 +1355,7 @@ GameObject:
   - component: {fileID: 1845377736}
   - component: {fileID: 1845377735}
   m_Layer: 5
-  m_Name: Text (7)
+  m_Name: CreditsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1294,7 +1368,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845377733}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1303,8 +1377,8 @@ RectTransform:
   - {fileID: 1007710978}
   - {fileID: 1786662722}
   - {fileID: 356801485}
-  m_Father: {fileID: 2104353174}
-  m_RootOrder: 3
+  m_Father: {fileID: 278568520}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1366,7 +1440,7 @@ GameObject:
   - component: {fileID: 1955409657}
   - component: {fileID: 1955409656}
   m_Layer: 5
-  m_Name: FarmHouse
+  m_Name: FarmHouseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,8 +1459,8 @@ RectTransform:
   m_Children:
   - {fileID: 874019674}
   - {fileID: 1766683221}
-  m_Father: {fileID: 2104353174}
-  m_RootOrder: 0
+  m_Father: {fileID: 367959484}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1496,7 +1570,7 @@ GameObject:
   - component: {fileID: 2104353175}
   - component: {fileID: 2104353177}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: GamePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1513,10 +1587,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1955409655}
-  - {fileID: 27016980}
-  - {fileID: 1080313419}
-  - {fileID: 1845377734}
+  - {fileID: 367959484}
+  - {fileID: 278568520}
   m_Father: {fileID: 226371947}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
